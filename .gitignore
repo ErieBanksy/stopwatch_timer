@@ -1,0 +1,4 @@
+stopwatch_timer/bin/*
+stopwatch_timer/obj/*
+stopwatch_timer/.vs/*
+.vs/*
