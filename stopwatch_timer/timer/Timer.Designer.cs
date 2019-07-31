@@ -45,7 +45,7 @@
             // hourNumeric
             // 
             this.hourNumeric.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.hourNumeric.Location = new System.Drawing.Point(78, 127);
+            this.hourNumeric.Location = new System.Drawing.Point(75, 144);
             this.hourNumeric.Maximum = new decimal(new int[] {
             23,
             0,
@@ -58,7 +58,7 @@
             // minuteNumeric
             // 
             this.minuteNumeric.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.minuteNumeric.Location = new System.Drawing.Point(144, 127);
+            this.minuteNumeric.Location = new System.Drawing.Point(141, 144);
             this.minuteNumeric.Maximum = new decimal(new int[] {
             59,
             0,
@@ -71,7 +71,7 @@
             // secondNumeric
             // 
             this.secondNumeric.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.secondNumeric.Location = new System.Drawing.Point(210, 127);
+            this.secondNumeric.Location = new System.Drawing.Point(207, 144);
             this.secondNumeric.Maximum = new decimal(new int[] {
             59,
             0,
@@ -85,7 +85,7 @@
             // 
             this.hrLabel.AutoSize = true;
             this.hrLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.hrLabel.Location = new System.Drawing.Point(92, 107);
+            this.hrLabel.Location = new System.Drawing.Point(89, 124);
             this.hrLabel.Name = "hrLabel";
             this.hrLabel.Size = new System.Drawing.Size(27, 20);
             this.hrLabel.TabIndex = 4;
@@ -95,7 +95,7 @@
             // 
             this.minLabel.AutoSize = true;
             this.minLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.minLabel.Location = new System.Drawing.Point(154, 107);
+            this.minLabel.Location = new System.Drawing.Point(151, 124);
             this.minLabel.Name = "minLabel";
             this.minLabel.Size = new System.Drawing.Size(38, 20);
             this.minLabel.TabIndex = 5;
@@ -105,7 +105,7 @@
             // 
             this.secLabel.AutoSize = true;
             this.secLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.secLabel.Location = new System.Drawing.Point(220, 107);
+            this.secLabel.Location = new System.Drawing.Point(217, 124);
             this.secLabel.Name = "secLabel";
             this.secLabel.Size = new System.Drawing.Size(38, 20);
             this.secLabel.TabIndex = 6;
@@ -115,7 +115,7 @@
             // 
             this.hrTimerLabel.AutoSize = true;
             this.hrTimerLabel.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.hrTimerLabel.Location = new System.Drawing.Point(86, 38);
+            this.hrTimerLabel.Location = new System.Drawing.Point(83, 55);
             this.hrTimerLabel.Name = "hrTimerLabel";
             this.hrTimerLabel.Size = new System.Drawing.Size(46, 57);
             this.hrTimerLabel.TabIndex = 7;
@@ -125,7 +125,7 @@
             // 
             this.minTimerLabel.AutoSize = true;
             this.minTimerLabel.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.minTimerLabel.Location = new System.Drawing.Point(146, 38);
+            this.minTimerLabel.Location = new System.Drawing.Point(143, 55);
             this.minTimerLabel.Name = "minTimerLabel";
             this.minTimerLabel.Size = new System.Drawing.Size(46, 57);
             this.minTimerLabel.TabIndex = 8;
@@ -135,7 +135,7 @@
             // 
             this.secTimerLabel.AutoSize = true;
             this.secTimerLabel.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.secTimerLabel.Location = new System.Drawing.Point(212, 38);
+            this.secTimerLabel.Location = new System.Drawing.Point(209, 55);
             this.secTimerLabel.Name = "secTimerLabel";
             this.secTimerLabel.Size = new System.Drawing.Size(46, 57);
             this.secTimerLabel.TabIndex = 9;
@@ -145,7 +145,7 @@
             // 
             this.colonLabe1.AutoSize = true;
             this.colonLabe1.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.colonLabe1.Location = new System.Drawing.Point(123, 38);
+            this.colonLabe1.Location = new System.Drawing.Point(120, 55);
             this.colonLabe1.Name = "colonLabe1";
             this.colonLabe1.Size = new System.Drawing.Size(37, 57);
             this.colonLabe1.TabIndex = 10;
@@ -155,7 +155,7 @@
             // 
             this.colonLabe2.AutoSize = true;
             this.colonLabe2.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.colonLabe2.Location = new System.Drawing.Point(185, 38);
+            this.colonLabe2.Location = new System.Drawing.Point(182, 55);
             this.colonLabe2.Name = "colonLabe2";
             this.colonLabe2.Size = new System.Drawing.Size(37, 57);
             this.colonLabe2.TabIndex = 12;
@@ -164,7 +164,7 @@
             // startTimerButton
             // 
             this.startTimerButton.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.startTimerButton.Location = new System.Drawing.Point(116, 191);
+            this.startTimerButton.Location = new System.Drawing.Point(113, 208);
             this.startTimerButton.Name = "startTimerButton";
             this.startTimerButton.Size = new System.Drawing.Size(106, 39);
             this.startTimerButton.TabIndex = 13;
@@ -182,7 +182,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(343, 317);
+            this.ClientSize = new System.Drawing.Size(339, 317);
             this.Controls.Add(this.startTimerButton);
             this.Controls.Add(this.colonLabe2);
             this.Controls.Add(this.colonLabe1);
